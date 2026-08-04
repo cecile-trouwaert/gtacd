@@ -2,7 +2,7 @@
 
 echo "Début de la vérification"
 
-if [ -f index.html ]; then
+if [ -f fichier_inexistant.html ]; then
     echo "index.html trouvé"
     echo "Fin de la vérification"
     exit 0
